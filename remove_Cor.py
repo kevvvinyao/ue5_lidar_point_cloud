@@ -5,7 +5,7 @@ import os
 original_file_path = os.path.join("data", "original.txt")
 
 # 定义新文本文件路径
-new_file_path = os.path.join("data", "new.txt")
+new_file_path = os.path.join("data", "noCor.txt")
 
 # 读取原始点云文件
 with open(original_file_path, "r") as f:

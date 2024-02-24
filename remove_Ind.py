@@ -1,3 +1,6 @@
+import os
+
+
 def filter_nan(input_file, output_file):
     with open(input_file, 'r') as f_in:
         lines = f_in.readlines()
@@ -9,6 +12,6 @@ def filter_nan(input_file, output_file):
 
 
 # 使用示例
-input_file = 'input.txt'
-output_file = 'output.txt'
+input_file = os.path.join('data', 'noCor.txt')
+output_file = os.path.join('data', 'noInd.txt')
 filter_nan(input_file, output_file)
