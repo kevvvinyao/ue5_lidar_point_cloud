@@ -24,4 +24,8 @@ There are some lines recording **invalid** data of position of points, which may
 -nan(ind) -nan(ind) -nan(ind)
 13867.102 20915.477 47.973
 ```
-
+Then you will get:
+```txt
+13868.196 20941.620 52.236
+13867.102 20915.477 47.973
+```
