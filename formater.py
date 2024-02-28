@@ -22,4 +22,3 @@ def cleanUnneeded(filename):
     derived_lines = [line for line in nocor_lines if '-nan' not in line]
     with open(output_file_path, "w") as f:
         f.writelines(derived_lines)
-
