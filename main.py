@@ -12,7 +12,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    filename = '2'
-    formater.cleanUnneeded(filename + '.txt')
+    file_index_end = 15
+    for i in range(1, file_index_end + 1):
+        formater.cleanUnneeded(str(i) + '.txt')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
